@@ -1,0 +1,5 @@
+
+spring.data.cassandra.port = 9043
+spring.data.cassandra.contact-points= localhost
+spring.data.cassandra.keyspace-name= mydb
+spring.data.cassandra.schemaAction= CREATE_IF_NOT_EXISTS

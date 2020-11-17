@@ -1,0 +1,12 @@
+spring:
+  data:
+    cassandra:
+      port: 9042
+      contact-points: 127.0.0.1
+      keyspace-name: mydb
+      schemaAction: CREATE_IF_NOT_EXISTS
+      #entity-base-package: com.example.cassandra.springbootcassandrademo.model
+
+#  devtools:
+#    livereload:
+#      port: 35730
